@@ -1,0 +1,42 @@
+@font-face {
+    font-family: IRANYekanWebBlack;
+    src: url(../fonts/IRANYekan/IRANYekanWebBlack.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: IRANYekanWebBold;
+    src: url(../fonts/IRANYekan/IRANYekanWebBold.ttf) format('truetype')
+}
+
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+*, *:after, *:before, *::placeholder {
+    font-family: IRANYekanWebBlack, serif;
+}
+
+
+body {
+    direction: rtl;
+}
+
+#loadingDiv {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-color: rgba(115, 115, 115, 0.5);
+    color: black
+}
+
+#loadingDiv div:first-child {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh
+}
