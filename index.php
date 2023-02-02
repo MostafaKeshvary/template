@@ -8,6 +8,37 @@
 </head>
 <body dir="rtl">
 
+<div class='radio_container'>
+    <input name='test' type='radio' class='radio' value='1'>
+    <label class='radio_content'>Test</label>
+</div>
+<div class='radio_container'>
+    <input name='test' type='radio' class='radio' value='2'>
+    <label class='radio_content'>Test2</label>
+</div>
+
+<div class='chips_container'>
+    <input type='checkbox' class='chips' value='1'>
+    <label class='chips_content'>
+        <img class='checked' src='sources/images/checked_checkbox.svg'
+             alt='check'>
+        <img class='unchecked' src='sources/images/unchecked_checkbox.svg'
+             alt='uncheck'>
+        <span>Test 3</span>
+    </label>
+</div>
+
+<div class='chips_container'>
+    <input type='checkbox' class='chips' value='2'>
+    <label class='chips_content'>
+        <img class='checked' src='sources/images/checked_checkbox.svg'
+             alt='check'>
+        <img class='unchecked' src='sources/images/unchecked_checkbox.svg'
+             alt='uncheck'>
+        <span>Test 4</span>
+    </label>
+</div>
+
 <div id='loadingDiv'>
     <div>
         <img src='sources/images/loading.gif' alt='loading'>
